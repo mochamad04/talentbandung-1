@@ -1,16 +1,35 @@
 body {
     background: #f7f5f1;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
     color: blue;
+    font-size: 14px;
+    margin: 0;
+    padding-bottom: 70px;
 }
 
-h1.logo{
-    font-size: 30px;
-    color: green;
+.logo{
+    float: left;
+    margin: 20px;
+}
+.overlay{
+    background: rgba(49, 29, 94, 0.58);
+    overflow: hidden;
+    height: 300px;
 }
 
+.header{
+    background-image: url(img/Background.jpg); 
+    background-size: cover;
+    overflow: hidden;
+    height: 300px;
+}
 a {
-    color: #c25245;
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover {
+    color: #00e0d0;
+    text-decoration: 
 }
 .logo {
     float: left;
@@ -18,6 +37,7 @@ a {
 
 ul {
     float: right;
+    margin:37px;
 }
 
 li {
@@ -48,7 +68,4 @@ th {
 }
 hr {
     clear: both;
-}
-img {
-    border-radius: 100%;
 }
