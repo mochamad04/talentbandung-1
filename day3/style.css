@@ -1,5 +1,5 @@
 body {
-    background: #f7f5f1;
+    background: #ffffff;
     font-family: 'Roboto',Arial, Helvetica, sans-serif;
     color: blue;
     font-size: 14px;
@@ -17,20 +17,79 @@ body {
     height: 300px;
 }
 
-.header{
-    background-image: url(img/Background.jpg); 
+.cointaner{
+    margin: 100px auto;
+    max-width: 1024px;
+    padding-left: 200px;
+    
+}
+.cointaner h2{
+    color: rgb(65, 61, 72);
+}
+
+p.cointainer-p{
+    padding-right: 100px;
+    font-size: 14px;
+    color: rgb(129, 127, 134);
+}
+.intro, .btn-play {
+    text-align: center;
+    color: #fff;
+    clear: both;
+}
+.header, .video{
+    background-image: url(img/bg-header.jpg); 
     background-size: cover;
     overflow: hidden;
     height: 300px;
 }
+.video{
+    background-image: url(img/bg-video.jpg); 
+
+}
+.story{
+    background-color: #ffffff;
+    height: 300px;
+}
+.story h2{
+    font-size: 24px;
+}
 a {
     color: #ffffff;
     text-decoration: none;
+    transition: .3s;
 }
+.btn-play{
+    margin:90px 0;
+}
+
 a:hover {
     color: #00e0d0;
-    text-decoration: 
+    text-decoration: none;
+    transition: .3s;
 }
+.btn{
+    padding: 15px;
+    border: 1px solid #00e0d0;
+    color: #00e0d0;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.btn:hover{
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    transition: .3s;
+}
+.btn-story{
+    padding: 15px;
+    border: 5px solid #00e0d0;
+    color: #00e0d0;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
 .logo {
     float: left;
 }
@@ -48,7 +107,6 @@ li {
 
 h1 {
     font-size: 30px;
-    color: green;
 }
 
 table {
