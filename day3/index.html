@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css"/>
+    <link href="http://fonts.google.com/css?family=Roboto" rel="stylesheet"/>
+    <title>Day 2</title>
+</head>
+<body>
+    <h1 id="header">Wisata Bandung</h1>
+    <ul>
+        <li> 
+            <a href="index.html">Home</a>
+        </li>
+        <li> 
+            <a href="element.html">Element</a>
+        </li>
+        <li> 
+            <a href="form.html">Form</a>
+        </li>
+        <li> 
+            <a href="tabel.html">Tabel</a>
+        </li>
+        <li> 
+            <a href="biodata.html">Biodata</a>
+        </li>
+    </ul>
+    <hr>
+    <p>Selamat Datang Di Wisata Kota Bandung</p>
+    <p>Berencana berkunjung ke Bandung saat liburan nanti? Maka Anda wajib melihat daftar tempat wisata menarik di Bandung yang patut</p>
+    <button onclick="setbackgroun(randomizecolor())"> Hello </button>
+    <script>
+        let x = {
+            nama: "Mochamad Syena",
+            warna: "Biru",
+            teman:{
+                nama:"Irfan",
+                warna:"Merah",
+            },
+        }
+        let r = [
+            "2",
+            "3",
+            "4"
+        ]
+        function setbackgroun(color){
+            let html = document.getElementsByTagName('html')[0];
+            html.style.backgroundColor= color;
+        }
+
+        function randomizecolor(){
+            let n = Math.random() * (16 ** 6 - 1);
+            n = Number(n.toFixed(0));
+            n = n.toString(16,n);
+            let color = `#${n}`;
+            let h1 = document.getElementById('header').style.color = color;
+            return color;
+        }
+        let Hai;
+        function Hello(){
+
+        }
+        function tambah(a,b){
+            return a+b;
+        }
+        let a = 0;
+        let nama = "Selamat Datang Mochamad Syena";
+        function hola(nama){
+            //alert(nama);
+            console.log(nama);
+        }
+    </script>
+</body>
+</html>
