@@ -8,7 +8,7 @@
 .intro {
   margin: 10rem 0;
 }
-.header {
+.header{
   background-image: url(../img/bg-header.jpg);
   background-size: cover;
   overflow: hidden;
@@ -23,10 +23,17 @@
 .header .dropdown-item {
   color: #333;
 }
+.btn-play {
+  text-align: center;
+  color: #fff;
+  clear: both;
+  margin: 250px auto;
+}
 .overlay{
   background: rgba(49, 29, 94, 0.5);
   color: #fff;
   overflow: hidden;
+  
 }
 .btn, .btn:hover {
   text-transform: uppercase;
@@ -47,4 +54,27 @@
     width: 10px;
     height: 10px;
     border-radius: 100%;
+}
+.story{
+  background-color: #ffffff;
+  height: 300px;
+}
+
+.video{
+  background-image: url(../img/bg-video.jpg);
+  background-size: cover;
+  overflow: hidden;
+  height: 500px;
+}
+.video-overlay{
+  background: rgba(49, 29, 94, 0.5);
+  background-size: cover;
+  overflow: hidden;
+  height: 500px;
+}
+.cointaner{
+  margin: 50px auto;
+  max-width: 1024px;
+  padding-left: autopx;
+  
 }
