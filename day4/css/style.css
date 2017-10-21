@@ -13,6 +13,10 @@
   background-size: cover;
   overflow: hidden;
 }
+.navbar-expand-md .navbar-collapse2 {
+  display: unset;
+  flex-basis: auto;
+}
 .header a {
   color: #fff;
 }
@@ -32,4 +36,9 @@
 .btn:hover {
   background-color: #00e0d0;
   color: #000;
+}
+
+#slider-home .carousel-indicators {
+  position: relative;
+  top: 3rem;
 }
